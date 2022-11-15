@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sidebtn {
+    @apply p-1.5 flex items-center cursor-pointer hover:bg-violet-50;
+}
+
+.side-span {
+    @apply font-semibold ml-2.5 text-slate-500;
+}
+
+.title {
+    @apply pt-3.5 pb-1 font-bold text-sm text-stone-400;
+}
