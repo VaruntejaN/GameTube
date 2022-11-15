@@ -9,10 +9,7 @@ const Navbar = () => {
   return (
     <div className="p-5 h-12 bg-white shadow flex items-center border-b-2 border-solid border-gray-200">
       <div className="p-5 h-12 w-full flex items-center justify-between">
-        <div className="w-full flex items-center mr-6">
-          <div className="w-60 indent-5 text-xl font-bold text-violet-500 cursor-pointer">
-            G A M E T U B E
-          </div>
+        {/* <div className="w-full flex items-center mr-6"> */}
           <div className="flex items-center p-1 border-solid border-gray-200 border-2 rounded-3xl w-full ml-12">
             <SearchIcon />
             <input
@@ -21,7 +18,7 @@ const Navbar = () => {
               placeholder="Search for games..."
             />
           </div>
-        </div>
+        {/* </div> */}
 
         <div className="flex items-center">
           <div className="flex items-center m-4 w-7 cursor-pointer">

@@ -3,6 +3,12 @@ import React from "react";
 const Sidebar = () => {
   return (
     <div className="border-r-2 border-solid border-gray-200 w-60 min-h-screen bg-white">
+      <div className="h-12 flex items-center justify-center shadow border-b-2 border-solid border-gray-200">
+        <span className="text-violet-500">
+          G A M E T U B E
+        </span>
+      </div>
+      {/* <hr className="h-0 border-b-2 border-solid border-gray-200"/> */}
       <div className="mt-4 ml-3 font-bold text-2xl text-stone-600 cursor-pointer">
         HOME
       </div>

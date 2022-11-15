@@ -4,10 +4,10 @@ import MainContainer from "../Layout/MainContainer";
 
 const Home = () => {
   return (
-    <div className="home">
-      <Navbar />
-      <div className="homeContainer flex">
-        <Sidebar />
+    <div className="home flex">
+      <Sidebar />
+      <div className="homeContainer w-full">
+        <Navbar />
         <MainContainer />
       </div>
     </div>
