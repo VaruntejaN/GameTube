@@ -8,7 +8,7 @@ const FetchReducer = (state,action) => {
         case 'SEARCH_GAME':
             return {
                 ...state,
-                searchList:action.payload
+                defaultList:action.payload
             }
         default:
             return state
