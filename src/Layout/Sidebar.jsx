@@ -9,7 +9,7 @@ const Sidebar = () => {
         </span>
       </div>
       {/* <hr className="h-0 border-b-2 border-solid border-gray-200"/> */}
-      <div className="overflow-y-scroll h-[695px]">
+      <div className="md:overflow-hidden">
         <div className="mt-4 ml-3 font-bold text-2xl text-stone-600 cursor-pointer">
           HOME
         </div>
