@@ -4,7 +4,7 @@ import { FetchProvider } from "./context/FetchContext";
 import Navbar from "./Layout/Navbar";
 import Sidebar from "./Layout/Sidebar";
 import MainContainer from "./Layout/MainContainer";
-import Abc from "./components/Abc";
+import GameDetails from "./components/GameDetails";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
             <Routes>
               <Route path="/">
                 <Route index element={<MainContainer />} />
-                <Route path="/to" element={<Abc />} />
+                <Route path="/gameDetails" element={<GameDetails />} />
               </Route>
             </Routes>
           </BrowserRouter>
