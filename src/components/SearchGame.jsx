@@ -8,7 +8,6 @@ const SearchGame = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const results = await fetchGames(searchKey);
-    console.log(results);
     dispatch({ type: "SEARCH_GAME", payload: results });
   };
 

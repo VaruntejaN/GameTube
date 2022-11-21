@@ -13,6 +13,7 @@ const MainContainer = () => {
     };
 
     fetchData();
+    // eslint-disable-next-line
   }, []);
 
   return (

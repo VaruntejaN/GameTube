@@ -7,6 +7,7 @@ const FetchContext = createContext();
 export const FetchProvider = ({ children }) => {
   const intitialState = {
     defaultList: null,
+    currentGame:null
   };
 
   const [state, dispatch] = useReducer(FetchReducer, intitialState);
