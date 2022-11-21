@@ -6,7 +6,7 @@ const Sidebar = () => {
       <div className="h-12 flex items-center justify-center shadow border-b-2 border-solid border-gray-200 cursor-pointer">
         <span className="text-2xl text-violet-500">G A M E T U B E</span>
       </div>
-      <div className="md:overflow-hidden">
+      <div className="overflow-scroll max-h-screen">
         <div className="mt-4 ml-3 font-bold text-2xl text-stone-600 cursor-pointer">
           HOME
         </div>
